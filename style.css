@@ -186,7 +186,7 @@
 /* second section end  */
 /* section three start */
 .sec3{
-    background-image: url(/img/student-2.jpg);
+    background-image: url(img/student-2.jpg);
     background-size: cover;
     background-position: 20% 70%;
 }
