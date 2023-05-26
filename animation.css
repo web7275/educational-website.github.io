@@ -1,0 +1,42 @@
+@keyframes text-slider{
+    0%{
+        transform: translateY(40%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slider-content>h5,h1,p,button{
+    animation: text-slider 02s ease-in-out
+}
+
+@keyframes slid-left{
+    0%{
+   transform: translateX(-10%);
+   opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.img-2{
+    animation: slid-left 1s ease-in-out;
+}
+
+@keyframes slid-right{
+    0%{
+   transform: translateX(30%);
+   opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.text-2{
+    animation: slid-right 2s ease-in-out;
+}
