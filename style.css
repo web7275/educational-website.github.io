@@ -598,7 +598,7 @@ margin-bottom: 0px;
     font-weight: 500;
 }
 .big-img{
-    background-image: url(/img/steps-img.png);
+    background-image: url(img/steps-img.png);
     width: 50%;
     height: auto;
     background-repeat: no-repeat;
@@ -687,3 +687,4 @@ margin-bottom: 0px;
 .text9> p span{
     color: #ff7350 !important;
 }
+
