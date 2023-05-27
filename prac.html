@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .accordent{
+            width: 40%;
+            background-color: aliceblue;
+           
+        }
+       .accordent-tab >label{
+        color: white;
+        background-color: blue;
+        position: relative;
+        cursor: pointer;
+        display: block;
+        padding: 12px 20px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        border-top: 1px solid beige;
+
+       }
+
+       .accordent-tab >.accordent-content{
+        max-height: 0;
+        transition: all 0.3s ease;
+        overflow: hidden;
+
+       }
+       .accordent-tab > .accordent-toggale:checked ~ .accordent-content{
+        max-height: 100vh;
+        
+
+       }
+       .accordent-toggale{
+        display: none;
+       }
+       .accordent-tab >.accordent-content p{
+        padding: 20px;
+       }
+    </style>
+</head>
+<body>
+    <div class="accordent">
+        <div class="accordent-tab">
+            <input type="checkbox" id="toggale 1" class="accordent-toggale" name="toggle">
+          <label for="toggale 1">please click here</label>
+             <div class="accordent-content">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, odit omnis animi eum non nihil similique id nobis. Fuga earum voluptatibus rerum soluta porro animi consequatur dignissimos alias mollitia veritatis!</p>
+             </div>
+
+
+        </div>
+        
+        <div class="accordent-tab">
+            <input type="radio" id="toggale 2" class="accordent-toggale" name="toggle">
+          <label for="toggale 2">please click here</label>
+             <div class="accordent-content">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, odit omnis animi eum non nihil similique id nobis. Fuga earum voluptatibus rerum soluta porro animi consequatur dignissimos alias mollitia veritatis!</p>
+             </div>
+
+
+        </div>
+        
+        <div class="accordent-tab">
+            <input type="radio" id="toggale 3" class="accordent-toggale" name="toggle">
+          <label for="toggale 3">please click here</label>
+             <div class="accordent-content">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, odit omnis animi eum non nihil similique id nobis. Fuga earum voluptatibus rerum soluta porro animi consequatur dignissimos alias mollitia veritatis!</p>
+             </div>
+
+
+        </div>
+        
+        <div class="accordent-tab">
+            <input type="checkbox" id="toggale 1" class="accordent-toggale" name="toggle">
+          <label for="toggale 1">please click here</label>
+             <div class="accordent-content">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, odit omnis animi eum non nihil similique id nobis. Fuga earum voluptatibus rerum soluta porro animi consequatur dignissimos alias mollitia veritatis!</p>
+             </div>
+
+
+        </div>
+        
+        <div class="accordent-tab">
+            <input type="checkbox" id="toggale 1" class="accordent-toggale" name="toggle">
+          <label for="toggale 1">please click here</label>
+             <div class="accordent-content">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, odit omnis animi eum non nihil similique id nobis. Fuga earum voluptatibus rerum soluta porro animi consequatur dignissimos alias mollitia veritatis!</p>
+             </div>
+
+
+        </div>
+        
+        <div class="accordent-tab">
+            <input type="checkbox" id="toggale 1" class="accordent-toggale" name="toggle">
+          <label for="toggale 1">please click here</label>
+             <div class="accordent-content">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, odit omnis animi eum non nihil similique id nobis. Fuga earum voluptatibus rerum soluta porro animi consequatur dignissimos alias mollitia veritatis!</p>
+             </div>
+
+
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -124,13 +124,29 @@
    .col ul li .text h3{
     display: none;
    }
-   .col ul li div{
-    
-    
-   }
+  
    .logo h1{
     padding: 20px 0px;
     font-size: 32px;
     
+   }
+   .scholarship-content{
+    flex-direction: column;
+    align-items: center;
+   }
+   .sec8{
+    background-size:cover;
+   }
+   .scholarship-content .text-box2 h1{
+      font-size: 32px;
+   }
+   .acco-form{
+    flex-direction: column;
+   }
+   .accordent-box label i{
+    left: 90%;
+   }
+   .form-box{
+    padding: 20px;
    }
 }
